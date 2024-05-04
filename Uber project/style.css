@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  position: sticky;
+  background-color: #edeaeadd;
+  height: 8vh;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0 25px;
+}
+nav h1 {
+  color: rgb(13, 90, 113);
+}
+nav h1:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+nav ul li a {
+  color: #000;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid red;
+  padding-bottom: 5px;
+}
+header {
+  position: relative;
+  background-image: url("./photo-1518281420975-50db6e5d0a97.jpeg");
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+form {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+input {
+  font-size: 20px;
+  padding: 10px 20px;
+}
+input[type="search"] {
+  width: 300px;
+  border: none;
+  outline: none;
+}
+input[type="submit"] {
+  background-color: rgb(13, 90, 113);
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid rgb(13, 90, 113);
+}
+input[type="submit"]:hover {
+  transform: scale(1.05);
+}
+
+/* Videos */
+.videos {
+  padding: 50px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.videos-text {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.videos-text h2,
+.videos-text p {
+  color: rgb(13, 90, 113);
+}
+.one {
+  background-color: rgba(128, 128, 128, 0.3);
+  padding: 5px 13px;
+  border: 1px solid grey;
+}
+.videos-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.videos-card {
+  opacity: 0.8;
+  margin: 2% 1%;
+  width: 23%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #000000a0;
+  transition: all 0.4s linear;
+}
+.videos-card img {
+  width: 100%;
+}
+.card-text {
+  display: flex;
+  justify-content: space-between;
+}
+.card-text p {
+  color: rgba(128, 128, 128, 0.785);
+  font-size: 12px;
+}
+.videos-card:hover {
+  opacity: 1;
+  transform: scale(1.05) rotate(5deg);
+}
+.videos-btns {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.videos-btns button {
+  cursor: pointer;
+  background-color: rgb(13, 90, 113);
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.videos-btns button:hover,
+.numbers span:hover {
+  opacity: 0.8;
+}
+.numbers span {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.248);
+  padding: 10px 20px;
+  margin: 0 2px;
+  border-radius: 5px;
+}
+.numbers span:first-child {
+  background-color: rgb(13, 90, 113);
+  color: #fff;
+}
+ .term{
+  display: flex;
+}
+.views{
+  margin-left: 600px;
+}
+p2{
+  margin-top: 30px;
+}
